@@ -4,7 +4,7 @@ My Third project at Misk-Udacity - Front-End Web Developer Nanodegree Program
 ## Table of Contents
 
 - [Instructions](#instructions)
-- [Original](#Original)
+- [Original Code](#OriginalCode)
 
 ## Instructions
 1. Open index.html file

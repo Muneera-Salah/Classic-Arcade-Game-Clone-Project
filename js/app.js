@@ -31,7 +31,7 @@ Enemy.prototype.update = function(dt) {
     if (this.x > areaout) {
         this.x = -5;
     }
-    if (Math.abs(this.x - player.x) < 102 && Math.abs(this.y - player.y) < 85) {
+    if (Math.abs(this.x - player.x) < 75 && Math.abs(this.y - player.y) < 20) {
         if (points <= 0) {
             points = 0;
             $('#modaldiv').modal('show');
@@ -73,10 +73,10 @@ class Player {
             points += 1;
             $('#modaldiv').modal('show');
             modelTitle.innerHTML = '<strong>Congratulations</strong>';
-            modleMsg.innerHTML = '<img src="images/Star.png" width="50px;" />' +
-                '<img src="images/Star.png" width="50px;" />' +
-                '<img src="images/Star.png" width="50px;" /> <br />' +
-                '<em>Your are winner<em>';
+            modleMsg.innerHTML = `<img src="images/Star.png" width="50px;" />
+                <img src="images/Star.png" width="50px;" />
+                <img src="images/Star.png" width="50px;" /> <br />
+                <em>Your are winner<em>`;
             modalBtn.innerHTML = 'play next points';
             pointsprint.innerHTML = points;
             //back to start postion
@@ -111,7 +111,7 @@ class Player {
 // Now instantiate your objects.
 const playerObj = new Player();
 const enemyObj1 = new Enemy(-50, 50);
-const enemyObj2 = new Enemy(-115, 115);
+const enemyObj2 = new Enemy(-130, 130);
 const enemyObj3 = new Enemy(-215, 215);
 // Place all enemy objects in an array called allEnemies
 let allEnemies = [];
