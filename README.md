@@ -7,7 +7,7 @@ My Third project at Misk-Udacity - Front-End Web Developer Nanodegree Program
 - [Original Code](#original-code)
 
 ## Instructions
-1. Open index.html file
+1. **localy :** Open index.html file OR **online:** open this link https://muneera-salah.github.io/Classic-Arcade-Game-Clone-Project/
 2. Use arrows button on your keyboard to play with the player.
 3. To win you should arrival in the water area without any collisions with bugs.
 4. If you collisions with bugs will lose one point.
